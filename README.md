@@ -16,6 +16,6 @@ You can install the required libraries using pip:
 ```sh
 pip install transformers Pillow requests matplotlib
 
-python main.py
+python main.py # for running the python file
 
-pyinstaller depth_estimation_app.spec
+pyinstaller --onefile depth_estimation_app.py # for exporting into and executable file
